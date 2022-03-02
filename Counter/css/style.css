@@ -1,0 +1,14 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.col-md-6 {
+    border: 7px solid rgb(29, 111, 219);
+    margin-top: 25% !important;
+    margin-left: 20%;
+    padding: 5%;
+}
+h1,h2, strong {
+    color: antiquewhite;
+}
