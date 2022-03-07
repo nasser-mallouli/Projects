@@ -1,0 +1,62 @@
+const data = {
+    products: [
+    {
+        _id:'1',
+        name:'Dell Latitude E5400',
+        category:'Laptop',
+        image:'images/dell.jpg',
+        price:120,
+        brand:'Dell',
+        rating:4.5,
+        numReviews:10,
+        descriptions: 'high quality product',
+    },
+    {
+        _id:'2',
+        name:'Dell Latitude F800',
+        category:'Laptop',
+        image:'images/dell2.jpg',
+        price:190,
+        brand:'Dell',
+        rating:5,
+        numReviews:12,
+        descriptions: 'high quality product',
+    },
+    {
+        _id:'3',
+        name:'Hp F88',
+        category:'Laptop',
+        image:'images/hp.jpg',
+        price:110,
+        brand:'Hp',
+        rating:4.8,
+        numReviews:40,
+        descriptions: 'high quality Laptop',
+    },
+    {
+        _id:'4',
+        name:'Lenovo 5400',
+        category:'Laptop',
+        image:'images/lenovo.jpg',
+        price:120,
+        brand:'Lenovo',
+        rating:3.5,
+        numReviews:16,
+        descriptions: 'high Quickly',
+    },
+    {
+        _id:'5',
+        name:'Siemns S2',
+        category:'Laptop',
+        image:'images/siemns.jpg',
+        price:120,
+        brand:'Siemns',
+        rating:5.0,
+        numReviews:15 ,
+        descriptions: 'high quality Laptop',
+    },
+
+],
+};
+
+export default data;
