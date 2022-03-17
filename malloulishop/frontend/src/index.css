@@ -5,7 +5,6 @@
   --background2: #094482;
   --text: #629AD5;
   --text2: #387ABF;
-
 }
 
 html {
@@ -194,6 +193,36 @@ img.larg {
   color: #20a020;
 }
 
-.error  {
+.danger  {
   color: #e42525;
+}
+
+.alert {
+  padding: 1rem;
+  border: 0.1rem solid transparent;  
+  border: 0.5rem;
+}
+
+.alert-info {
+  color: #2020a0;
+  background-color: #e0e0ff;
+}
+
+.alert-danger {
+  color: #a02020;
+  background-color: #ffe0e0e0;
+}
+
+/* Loading Box */ 
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.fa-spin {
+  width: 50rem;
 }
