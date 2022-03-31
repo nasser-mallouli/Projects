@@ -210,7 +210,14 @@ img.larg {
 
 .alert-danger {
   color: #a02020;
-  background-color: #ffe0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+}
+.alert-danger p {
+  font-style: italic;
+  font-weight: bold;
 }
 
 /* Loading Box */ 
