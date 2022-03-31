@@ -30,5 +30,9 @@
     "bugs": {
         "url": "https://github.com/nasser-mallouli/JavaScript-Projects/issues"
     },
-    "homepage": "https://github.com/nasser-mallouli/JavaScript-Projects/tree/main#readme"
+    "homepage": "https://github.com/nasser-mallouli/JavaScript-Projects/tree/main#readme",
+    "devDependencies": {
+        "eslint": "^8.12.0",
+        "eslint-plugin-react": "^7.29.4"
+    }
 }
