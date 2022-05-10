@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class GetUserZahlungDetailsQuery {
+public class GetKontoZahlungDetailsQuery {
 
     private String kontoID;
 

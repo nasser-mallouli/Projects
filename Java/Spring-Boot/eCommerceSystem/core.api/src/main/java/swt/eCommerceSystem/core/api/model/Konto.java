@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 @Builder
 public class Konto {
-    private String userId;
+    private String kontoID;
     private String firstName;
     private String lastName;
     private CardDetails cardDetails;
