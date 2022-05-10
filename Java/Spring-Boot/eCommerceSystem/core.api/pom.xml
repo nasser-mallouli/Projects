@@ -9,42 +9,24 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>swt.eCommerceSystem</groupId>
-	<artifactId>bestellung</artifactId>
+	<artifactId>core.api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bestellung</name>
+	<name>core.api</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>org.axonframework</groupId>
-			<artifactId>axon-spring-boot-starter</artifactId>
-			<version>4.5.8</version>
-		</dependency>
-		<dependency>
-			<groupId>io.projectreactor</groupId>
-			<artifactId>reactor-core</artifactId>
-			<version>3.4.16</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-freemarker</artifactId>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -52,20 +34,8 @@
 		</dependency>
 		<dependency>
 			<groupId>org.axonframework</groupId>
-			<artifactId>axon-test</artifactId>
-			<version>4.5.8</version>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.24</version>
-		</dependency>
-		<dependency>
-			<groupId>swt.eCommerceSystem</groupId>
-			<artifactId>core.api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>axon-spring-boot-starter</artifactId>
+			<version>4.0.3</version>
 		</dependency>
 	</dependencies>
 

@@ -69,12 +69,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.progressivecoder.saga-pattern</groupId>
-			<artifactId>core-apis</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-
-		<dependency>
 			<groupId>javax.inject</groupId>
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
@@ -84,6 +78,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>swt.eCommerceSystem</groupId>
+			<artifactId>core.api</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
