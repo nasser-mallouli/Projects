@@ -7,7 +7,8 @@ import swt.eCommerceSystem.core.api.model.Konto;
 import swt.eCommerceSystem.core.api.queries.GetKontoZahlungDetailsQuery;
 
 @Component
-public class UserProjection {
+public class KontoProjection
+{
 
     @QueryHandler
     public Konto GetUserZahlungDetails(GetKontoZahlungDetailsQuery guery) {

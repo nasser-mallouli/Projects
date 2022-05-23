@@ -1,4 +1,4 @@
-package swt.eCommerceSystem.bestellung.command.api.data;
+package swt.eCommerceSystem.Bestellung.command.api.data;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

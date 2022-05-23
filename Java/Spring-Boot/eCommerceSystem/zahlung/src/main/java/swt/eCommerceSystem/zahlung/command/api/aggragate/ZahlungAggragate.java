@@ -15,7 +15,7 @@ public class ZahlungAggragate {
 
     @AggregateIdentifier
     private String zahlungId;
-    private String bestellungId;
+    private String bestellungID;
     private String paymentStatus;
 
     public ZahlungAggragate() {
@@ -24,12 +24,12 @@ public class ZahlungAggragate {
         // Validate the Zahlung Details
         // Publish the Zahlung Processed Event
         log.info("Execute ZahlungAggragate Commanf for bestellungID {} mit dem ZahlungID",
-                zahlungBestatigungCommand.getBestellungId(),
+                zahlungBestatigungCommand.getBestellungID(),
                 zahlungBestatigungCommand.getZahlungId());
 
         ZahlungProcessedEvent zahlungProcessedEvent
                 = new ZahlungProcessedEvent(zahlungBestatigungCommand.getZahlungId(),
-                zahlungBestatigungCommand.getBestellungId() );
+                zahlungBestatigungCommand.getBestellungID() );
 
         AggregateLifecycle.apply(zahlungProcessedEvent);
         log.info("Zahlung Prozess in Aggregate Applied");
@@ -38,7 +38,7 @@ public class ZahlungAggragate {
     @EventSourcingHandler
     public void on(ZahlungProcessedEvent event){
         this.zahlungId = event.getZahlungID();
-        this.bestellungId = event.getBestellungID();
+        this.bestellungID = event.getBestellungID();
     }
 
 }

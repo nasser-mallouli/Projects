@@ -1,4 +1,4 @@
-package swt.eCommerceSystem.bestellung.command.api.data;
+package swt.eCommerceSystem.Bestellung.command.api.data;
 
 import lombok.Data;
 
@@ -12,10 +12,10 @@ import javax.persistence.Table;
 public class Bestellung {
 
     @Id
-    private String BestellungId;
-    private String KontoID;
+    private String bestellungID;
+    private String kontoID;
     private String produktID;
-    private String AddressID;
+    private String addressID;
     private int quantity;
     private String BestellungStatus;
 }

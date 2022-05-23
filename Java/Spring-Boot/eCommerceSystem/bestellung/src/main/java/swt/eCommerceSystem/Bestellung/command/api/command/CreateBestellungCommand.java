@@ -1,4 +1,4 @@
-package swt.eCommerceSystem.bestellung.command.api.command;
+package swt.eCommerceSystem.Bestellung.command.api.command;
 
 import lombok.Builder;
 import lombok.Data;
